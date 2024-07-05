@@ -59,7 +59,7 @@ public class CollectionOfBooks {
         CollectionOfBooks.addBook(book1);
         CollectionOfBooks.addBook(book2);
         ArrayList<CollectionOfBooks> collectionOfBooks= CollectionOfBooks.getBookCollection();
-        System.out.println("List of books");
+        System.out.println("List of books: "+collectionOfBooks);
         for (CollectionOfBooks book:collectionOfBooks){
             System.out.println(book.getBookName()+" by "+book.getBookAuthor());
         }
